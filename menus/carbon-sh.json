@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle carbon-sh",
+        "command": "carbon-sh:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "carbon-sh",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "carbon-sh:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
