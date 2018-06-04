@@ -8,10 +8,9 @@ html, body {
 
 .wrapper {
   overflow-x: hidden;
-  padding: 15px;
-  display: block;
   background: #000;
   background-color: #000;
+  border-radius: .1em;
 }
 
 .wrapper pre[class*="language-"] {

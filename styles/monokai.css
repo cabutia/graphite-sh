@@ -32,7 +32,6 @@ pre[class*="language-"] {
 	margin: .5em 0;
 	overflow: auto;
 	border-radius: 0.3em;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 :not(pre) > code[class*="language-"],
