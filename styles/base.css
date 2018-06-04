@@ -1,0 +1,9 @@
+.wrapper {
+  overflow-x: hidden;
+  padding: 100px;
+  background: #810be8;
+}
+
+.wrapper pre[class*="language-"] {
+  overflow-x: hidden;
+}
