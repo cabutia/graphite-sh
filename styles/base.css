@@ -1,7 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000;
+  background-color: #000;
+}
+
 .wrapper {
   overflow-x: hidden;
-  padding: 100px;
-  background: #810be8;
+  padding: 15px;
+  display: block;
+  background: #000;
+  background-color: #000;
 }
 
 .wrapper pre[class*="language-"] {
