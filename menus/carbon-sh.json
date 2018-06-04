@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle carbon-sh",
-        "command": "carbon-sh:toggle"
+        "label": "Screenshot the code!",
+        "command": "carbon-sh:generate"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "carbon-sh",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "carbon-sh:toggle"
+              "label": "Screenshot the code!",
+              "command": "carbon-sh:generate"
             }
           ]
         }
