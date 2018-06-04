@@ -18,6 +18,7 @@
   "dependencies": {
     "dialog": "^0.3.1",
     "fs": "0.0.1-security",
+    "hoek": "^5.0.3",
     "inline-css": "^2.4.0",
     "node-prismjs": "^0.1.1",
     "os": "^0.1.1",
