@@ -16,6 +16,10 @@
       {
         "label": "[Graphite] Clear",
         "command": "graphite-sh:clear-screenshot"
+      },
+      {
+        "label": "{Graphite} TEST",
+        "command": "graphite-sh:test"
       }
     ]
   },
