@@ -1,8 +1,43 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
 @import "ui-variables";
 
 .graphite-sh {
+  width: 400px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.graphite-sh.hidden {
+  display: none;
+}
+
+.graphite-sh img {
+  max-width: 100%;
+}
+
+.graphite-sh img.hidden {
+  display: none;
+}
+
+.graphite-sh .actions-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 15px;
+}
+
+.graphite-sh .actions-wrapper .action {
+  padding: 5px;
+  background: @button-background-color;
+  border: 1px solid @button-border-color;
+  transition: background 0.3s ease;
+}
+
+.graphite-sh .actions-wrapper .action:hover {
+  background: @button-background-color-hover;
 }

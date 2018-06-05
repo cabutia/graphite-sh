@@ -2,8 +2,20 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle graphite-sh",
-        "command": "graphite-sh:toggle"
+        "label": "[Graphite] Take screenshot!",
+        "command": "graphite-sh:take-screenshot"
+      },
+      {
+        "label": "[Graphite] Hide panel",
+        "command": "graphite-sh:hide-panel"
+      },
+      {
+        "label": "[Graphite] Show panel",
+        "command": "graphite-sh:show-panel"
+      },
+      {
+        "label": "[Graphite] Clear",
+        "command": "graphite-sh:clear-screenshot"
       }
     ]
   },
