@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle graphite-sh",
+        "command": "graphite-sh:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "graphite-sh",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "graphite-sh:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
