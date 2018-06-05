@@ -15,14 +15,6 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "config": {
-    "someSetting": {
-      "type": "integer",
-      "default": 50,
-      "minimum": 1,
-      "maximum": 100
-    }
-  },
   "dependencies": {
     "dialog": "^0.3.1",
     "fs": "0.0.1-security",
